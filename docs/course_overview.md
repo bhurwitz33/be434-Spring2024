@@ -29,10 +29,10 @@ Each week, we will cover one chapter in the text for the class [Tiny Python Proj
 In the last two weeks of the semester, you will get the opportunity to complete a final project to use all of the wonderful skills you have acquired. Projects will vary at the graduate- or undergraduate-level.
 
 ## How deadlines work:
-Each week, the week's course content will be made available on Monday at 9am, and all tasks must be complete by Sunday at 11:59pm. These deadlines help you organize your time, and keep you on track. Chapters build on one another, so you must complete each chapter before proceeding to the next. Working on each chapter, each week will get you the practice you need to learn the wonders of Python!
+Each week, the week's course content will be made available on Monday at 8 am, and all tasks must be complete by Sunday at 11:59pm. These deadlines help you organize your time, and keep you on track. Chapters build on one another, so you must complete each chapter before proceeding to the next. Working on each chapter, each week will get you the practice you need to learn the wonders of Python!
 
 ## Submitting homework
-You'll be using an application called VS Code for writing and testing Python programs, and submitting these programs to a web-based GitHib repository (shared with me, your instructor). Don't worry! You will learn how to do this using the Jupyter notebooks for each assignment this class.
+You'll be using an application called VS Code on the campus HPC for writing and testing Python programs, and submitting these programs to a web-based GitHub repository (shared with me, your instructor). Don't worry! You will learn how to do this using the Jupyter notebooks for each assignment this class.
 
 ## Getting and giving help
 Here are a few ways you can give and get help: 

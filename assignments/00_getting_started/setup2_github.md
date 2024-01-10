@@ -78,10 +78,6 @@ git push
 Did that work? If not, email me with any errors so we can get you on track.
 
 
-
-
-
-
 ## Authors
 
 Bonnie Hurwitz <bhurwitz@arizona.edu> and Ken Youens-Clark <kyclark@gmail.com>

@@ -80,9 +80,10 @@ My new.py file is located here: /Users/bhurwitz/.local/bin/new.py
 
 ## Getting Started with new.py for the first homework assignment
 
-Here is how you can create the `salutations.py` using `new.py`:
+Here is how you can create the `howdy.py` using `new.py`:
 
 ```
-$ new.py -p 'Print greeting' salutations.py
-Done, see new script "salutations.py."
+$ cd ~/be434-Spring2024/assignments/00_getting_started
+$ new.py -p 'Print greeting' howdy.py
+Done, see new script "howdy.py."
 ```
