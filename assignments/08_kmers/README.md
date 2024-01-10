@@ -223,6 +223,7 @@ foo            1     1
 At this point, your program should pass all the tests.
 
 ```
+$ conda activate /groups/bhurwitz/bh_class/be434/be434-conda
 $ make test
 pytest -xv --pylint --disable-warnings test.py kmers.py
 ============================= test session starts ==============================

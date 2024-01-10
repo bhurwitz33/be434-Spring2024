@@ -315,6 +315,7 @@ ELHRSPG
 A passing test suite looks like this:
 
 ```
+$ conda activate /groups/bhurwitz/bh_class/be434/be434-conda
 $ make test
 pytest -xv --pylint --disable-warnings test.py translate.py
 ============================= test session starts ==============================

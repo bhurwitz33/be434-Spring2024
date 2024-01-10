@@ -150,11 +150,11 @@ Sup, Dude!
 
 ## Testing
 
-You should have 
-The test suite will require the modules pytest, flake8, and pylint which you can install with the following command (if you have not already installed these using the requirements.txt during setup):
+We are going to use a virtual environment on the HPC with all of the Python packages
+already installed on it that the test suite will require, such as pytest, flake8, and pylint. You can activate the environment using the collowing command:
 
 ```
-$ python3 -m pip install pytest flake8 pylint
+conda activate /groups/bhurwitz/bh_class/be434/be434-conda
 ```
 
 You can run the test suite with the following command:

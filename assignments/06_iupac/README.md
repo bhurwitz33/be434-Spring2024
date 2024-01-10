@@ -97,6 +97,7 @@ BDA [CGT][AGT]A
 A passing test suite looks like the following:
 
 ```
+$ conda activate /groups/bhurwitz/bh_class/be434/be434-conda
 $ make test
 pytest -xv --pylint --disable-warnings test.py iupac.py
 ============================= test session starts ==============================

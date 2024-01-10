@@ -214,6 +214,7 @@ I would recommend you study the `test.py` as it uses the BioPython module to par
 Note that BioPython will emit a deprecation warning under `pytest`, so I have added an additional flag `--disable-pytest-warnings` to the `make test` target that you should use:
 
 ```
+$ conda activate /groups/bhurwitz/bh_class/be434/be434-conda
 $ make test
 pytest -xv --disable-pytest-warnings test.py
 ============================= test session starts ==============================

@@ -255,6 +255,7 @@ When you are done, be sure to let the user know how many records were written to
 A passing test suite:
 
 ----
+$ conda activate /groups/bhurwitz/bh_class/be434/be434-conda
 $ make test
 pytest -xv --disable-pytest-warnings test.py
 =========================== test session starts ============================

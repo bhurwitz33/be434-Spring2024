@@ -128,6 +128,7 @@ $ wc -l out.txt
 A passing test suite look like this:
 
 ```
+$ conda activate /groups/bhurwitz/bh_class/be434/be434-conda
 $ make test
 pytest -xv --pylint --disable-warnings test.py grep.py
 ============================= test session starts ==============================
