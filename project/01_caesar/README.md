@@ -81,3 +81,18 @@ For instance, the _inputs/hello.txt_ file has one line:
 $ ./caesar.py -n 5 ./inputs/hello.txt
 MJQQTBTWQI
 ```
+
+## Testing
+
+Activate the testing environment
+
+```
+conda activate /groups/bhurwitz/bh_class/be434/be434-conda
+```
+
+The program should pass all tests:
+
+```
+$ make test
+pytest -xv test.py
+```

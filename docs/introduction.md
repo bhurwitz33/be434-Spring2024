@@ -22,4 +22,4 @@ In the last few weeks, we will start writing more complex real-world programs th
 
 And to finish, we'll put all of this together for the final project using the knowledge that you've acquired to process data. This lets you experience real world coding scenarios where you will need to write code to solve problems. 
 
-Remember that these complex topics and videos might not “sink in” the frist time, and it is completely fine to rewatch them. This is totally natural, take your time. Also, remember, that you can you use the slack discussion forum to connect with me and  your fellow students to ask any questions that you might have. We're about to go on a fun and fascinating journey together into Python. Let's get started.
+Remember that these complex topics and videos might not “sink in” the first time, and it is completely fine to rewatch the videos. This is totally natural, take your time. Also, remember, that you can you use the slack discussion forum to connect with me and your fellow students to ask any questions that you might have. We're about to go on a fun and fascinating journey together into Python. Let's get started.

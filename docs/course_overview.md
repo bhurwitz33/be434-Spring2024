@@ -16,13 +16,13 @@ You will learn about Pythin through simple coding examples. This will give you a
 ## Creating your development environment:
 To get the most out of this course, I strongly recommend that you install all of the required software on your machine (see setup documents). You will be writing and testing Python code directly on your machine. 
 
-## How to pass the class:
+## How to be sucessful in the class:
 Each week, we will cover one chapter in the text for the class [Tiny Python Projects](http://tinypythonprojects.com/) by Ken Youens-Clark. This text is available free of charge through the University of Arizona online catalog. Each week you will need to:
 
 * Watch the short video lectures, providing an overview of the chapter
 * Read the chapter
 * Complete the practice exercises for the chapter (in "examples" in the class GitHub repository)
-* Complete the practice quiz for the chapter (take multiple times to improve your score and learn)
+* Complete the quiz for the chapter
 * Complete the homework assignment for the chapter (in the class GitHub repository)
 * Use the slack discussion forum to ask questions, get help, or go deeper
 
@@ -32,11 +32,13 @@ In the last two weeks of the semester, you will get the opportunity to complete 
 Each week, the week's course content will be made available on Monday at 9am, and all tasks must be complete by Sunday at 11:59pm. These deadlines help you organize your time, and keep you on track. Chapters build on one another, so you must complete each chapter before proceeding to the next. Working on each chapter, each week will get you the practice you need to learn the wonders of Python!
 
 ## Submitting homework
-You'll be using an application called VS Code for writing and testing Python programs, and submitting these programs to a web-based GitHib repository (shared with me, your instructor). Don't worry! You will learn how to get everything set up on your computer this week to make you successful (see the setup documents).
+You'll be using an application called VS Code for writing and testing Python programs, and submitting these programs to a web-based GitHib repository (shared with me, your instructor). Don't worry! You will learn how to do this using the Jupyter notebooks for each assignment this class.
 
 ## Getting and giving help
 Here are a few ways you can give and get help: 
 
 Discussion forums: You can share information and ideas with your fellow students in the discussion forum on slack. Slack is also great place to find answers to questions you may have that have already been asked. If you're stuck on a concept, are struggling to solve a practice exercise, or you just want more information on a subject, the discussion forums are there to help you move forward.
 
-Online: Throughout this course, we'll teach you how to code in Python, but this is a big topic! We will provide a ton of information through videos, reading, examples, and supplemental readings, but sometimes, you may need to look things up on your own (this is true throughout your career and in the real-world!). Feel free to use your favorite search engine to find more information about concepts we cover in this course — but be sure your work is your own! How else will you learn to code? Practice,practice, practice!
+Online: Throughout this course, we'll teach you how to code in Python, but this is a big topic! I will provide a ton of information through videos, reading, examples, and supplemental readings, but sometimes, you may need to look things up on your own (this is true throughout your career and in the real-world!). Feel free to use your favorite search engine to find more information about concepts we cover in this course — but be sure your work is your own! How else will you learn to code? Practice,practice, practice!
+
+Office hours: You can always get help through the office hours. These are in-person and online on Fridays 12:00-12:50 in Shantz 440 and on Zoom (https://arizona.zoom.us/my/bonniehurwitz). Or, you are also welcome to schedule an appointment: bhurwitz@arizona.edu.

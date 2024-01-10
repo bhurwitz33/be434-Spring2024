@@ -1,4 +1,0 @@
-# Final Projects
-
-| Student | Repo |
-| ------- | ---- |

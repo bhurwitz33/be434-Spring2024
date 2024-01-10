@@ -40,6 +40,11 @@ optional arguments:
   -h, --help  show this help message and exit
 ```
 
+Activate the testing environment
+```
+conda activate /groups/bhurwitz/bh_class/be434/be434-conda
+```
+
 A passing test suite looks like this:
 
 ```

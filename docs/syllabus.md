@@ -23,8 +23,9 @@ Some experience programming Python is useful but not required.
 - Instructor: Bonnie Hurwitz, Associate Professor, Biosystems Engineering
 - Office: Bio5 Keating, Room 223 
 - E-mail: bhurwitz@arizona.edu
-- Office Hours: 9:30-10:30 AM Wednesday on Zoom (https://arizona.zoom.us/my/bonniehurwitz)
-- Course Websites: https://github.com/bhurwitz33/be434-spring-2023
+- Office Hours: 12:00 PM Friday (Shantz 440) &
+                on Zoom (https://arizona.zoom.us/my/bonniehurwitz)
+- Course Website: https://github.com/hurwitzlab/be434-Spring2024
 
 ## Course Objectives
 
@@ -65,7 +66,7 @@ Students who register after the first class meeting may make up missed assignmen
 
 ## Course Communications 
 
-Online communication, quizzes, and grading will be conducted through D2L and Slack. Course materials (video lectures, readings, homework assignments, and quizzes) will be available on D2L and the course GitHub site (https://github.com/bhurwitz33/be434-spring-2023). The GitHub privacy statement is located here: https://help.github.com/articles/github-privacy-statement. Slack (https://slack.com/) will be used for online class discussion forums, and each student will be invited to the slack channel at the beginning of the semester. 
+Online communication, quizzes, and grading will be conducted through D2L and Slack. Course materials (video lectures, readings, homework assignments, and quizzes) will be available on D2L and the course GitHub site (https://github.com/hurwitzlab/be434-Spring2024). The GitHub privacy statement is located here: https://help.github.com/articles/github-privacy-statement. Slack (https://slack.com/) will be used for online class discussion forums, and each student will be invited to the slack channel at the beginning of the semester. 
 
 ## Required Texts or Readings
 
@@ -83,7 +84,7 @@ All texts are available free of charge through the University of Arizona online 
 
 ## Required or Special Materials
 
-Students will be required to create a (free) account on GitHub to download and turn in assignments. Students must install Github Desktop (https://desktop.github.com/) on their laptops. Students must also install Python on their laptops for completing and turning in assignments. Students will also need to install Visual Studio Code (https://code.visualstudio.com/), an code editor. Information on accessing these resources and detailed installation instructions can be found under "Start here" in D2L. Detailed informaton on how to use and install all of these resources is available in the docs folder on the course Github site (https://github.com/bhurwitz33/be434-spring-2023) and via D2L.
+Students will be required to create a (free) account on GitHub to download and turn in assignments. Students will use the campus high-performance computer (HPC) to write programs using Visual Studio Code (https://code.visualstudio.com/), an code editor, and then submit this code to GitHub for grading. Information on accessing these resources and detailed instructions are documented in week1 in D2L.
 
 ## Required Extracurricular, Activities
 
@@ -97,9 +98,9 @@ Point Breakdown per Category:
 
 | Category | # Assessments | Points per assessment | Points total |
 | -------- | ------------- | --------------------- | ------------ |
-| Homework (48%) | 12 | 40 | 480 |
+| Homework (52%) | 13 | 40 | 520 |
 | Quizzes (36%) | 12 | 30 | 360 |
-| Project (16%) | 1 | 160 | 160 |
+| Project (12%) | 1 | 120 | 120 |
 | Total | | | 1000 |
 
 Grading Scale:
@@ -116,26 +117,26 @@ Dispute of Grade Policy: Disputes on a grade for an assignment, quiz, or exam mu
 
 ## Weekly Learning Modules
 
-Each week's learning module consists of: reading assignments, instructional videos, a practice quiz, and a homework assignment. All homework assignments are on the course GitHub site https://github.com/bhurwitz33/be434-spring-2023 and linked in D2L. All readings, videos, and quizzes are on D2L. 
+Each week's learning module consists of: reading assignments, instructional videos, a practice quiz, and a homework assignment. All practice exercises and homework assignments are on the course GitHub site https://github.com/hurwitzlab/be434-Spring2024 and linked in D2L. All readings, videos, and quizzes are on D2L. 
 
 ## Homework
 
-The homework provides you with practice in scripting and analytics. Homework is turned in by committing your code to your GitHub repository that is shared with the instructor. Each week's homework is due that on Sunday at 11:59pm that week. On the following Monday, the instructor will download your code from GitHub. Your grade will be based on the percentage of tests you pass in the provided test suite. We encourage group work (via Slack) but be sure the code you turn in has been independently written (see Code of Academic Integrity below). 
+The homework provides you with practice in scripting and analytics. Homework is turned in by committing your code to your GitHub repository that is shared with the instructor. Each week's homework is assigned on Monday at 8:00am and due on Sunday at 11:59pm. On the following Monday, the instructor will download your code from GitHub. Your grade will be based on the percentage of tests you pass in the provided test suite with each homework assignment. I encourage group work (via Slack) but be sure the code you turn in has been independently written (see Code of Academic Integrity below). In addition, code should not be written using generative AI resources like ChatGPT. 
 
 ## Quizzes
 
-Each week, you will be tested on the videos and reading for that week (see the schedule) through a Practice Quiz on D2L. Students can take the quiz as many times as they would like to learn the material and improve their scores.
+Each week, you will be tested on the exercises, videos and reading for that week (see the schedule) through a Practice Quiz on D2L. Students can take the quiz up to two times to learn the material and improve their scores.
 
 ## Final Project
 
-At the end of the semester, each student will implement a program in Python via the class project that demonstrates the core programming concepts for the class. Students can select from several progamming projects, wherein Graduate students will select from more difficult problems than Undergraduates. The final project should include documentation (a README), a program, a test suite, and any required input/data to run the program.
+At the end of the semester, each student will implement a program in Python via the class project that demonstrates the core programming concepts for the class. Students can select from several progamming projects, wherein Graduate students will select from more difficult problems than Undergraduates.
 
 ## Scheduled Topics/Activities
 
 ```
-Week 1: Course Introduction and Setup
+Week 1: Course Introduction and Setup: HW0: 00_getting_started_part1
 
-Week 2: Writing your first python program
+Week 2: Writing your first python program, HW0: 00_getting_started_part2
 
 Week 3: Hello (Strings), HW1: 01_salutations, Practice Quiz 1
 
@@ -147,29 +148,29 @@ Week 6: Howler (Files), HW4: 04_cat, Practice Quiz 4
 
 Week 7: Words Count (Files, algorithms), HW5: 05_proteins, Practice Quiz 5
 
-Week 8: Apples and Bananas (Regular expressions, refactoring), HW6: 06_common, Practice Quiz 6
+Week 8: Apples and Bananas (Regular expressions, refactoring), HW6: 06_iupac, Practice Quiz 6
 
 Week 9: Spring Break!
 
-Week 10: Dial-a-Curse/Telephone/Ransom (Randomness), HW7: 07_iupac, Practice Quiz 7
+Week 10: Dial-a-Curse/Telephone/Ransom (Randomness), HW7: 07_syndna, Practice Quiz 7
 
 Week 11: Bottles of Beer/Twelve Days of Christmas (Algorithms), HW8: 08_kmers, Practice Quiz 8
 
-Week 12: WOD (Parsing CVS files), HW9: 09_fasta, Practice Quiz 9
+Week 12: WOD (Parsing CVS files), HW9: 09_csvfilter, Practice Quiz 9
 
-Week 13: Password (Randomness), HW10: 10_conserved, Practice Quiz 10
+Week 13: Password (Randomness), HW10: 10_common, Practice Quiz 10
 
 Week 14: Tic-Tac-Toe (State), HW11: 11_run_length, Practice Quiz 11
 
 Week 15: Tic-Tac-Toe (Types), HW12: 12_grep, Practice Quiz 12
 
-Week 16-17 (4/24-5/3): Coding Projects 
+Week 16-17: Coding Projects 
 
 ```
 
 ## Honors Credit
 
-Students wishing to contract this course for Honors Credit should email me to set up an appointment to discuss the terms of the contract. Typically undergraduate honors students implement a simplified project for the final project. Information on Honors Contracts can be found at http://www.honors.arizona.edu/faculty-and-advisors/contracts.  
+Students wishing to use this course for Honors Credit should email me to set up an appointment to discuss the terms of the contract. Typically undergraduate honors students implement a simplified project for the final project. Information on Honors Contracts can be found at http://www.honors.arizona.edu/faculty-and-advisors/contracts.  
 
 ## Classroom Behavior Policy
 
@@ -189,6 +190,15 @@ Students are encouraged to share intellectual views and discuss freely the princ
 
 The University Libraries have some excellent tips for avoiding plagiarism, available at http://new.library.arizona.edu/research/citing/plagiarism.
 Selling class notes and/or other course materials to other students or to a third party for resale is not permitted without the instructor’s express written consent. Violations to this and other course rules are subject to the Code of Academic Integrity and may result in course sanctions. Additionally, students who use D2L or UA e-mail to sell or buy these copyrighted materials are subject to Code of Conduct Violations for misuse of student e-mail addresses. This conduct may also constitute copyright infringement.
+
+## Statement on the use of Generative AI
+In this course any and all uses of generative artificial intelligence (AI)/large language model tools such as ChatGPT, Dall-e, Google Bard, Microsoft Bing, etc. will be considered a violation of the Code of Academic Integrity, specifically the prohibition against submitting work that is not your own. This applies to all assessments in the course, including coding assignments, discussions, quizzes, and exercises. This course policy is driven by the learning goals and desired learning outcomes for the course (see above).
+
+The following actions are prohibited:
+* entering all or any part of an assignment statement or test questions as part of a prompt to a large language model AI tool;
+* incorporating any part of an AI-written response in an assignment;
+* using AI to summarize or contextualize reading assignments or source materials; and
+* submitting your own work for this class to a large language model AI tool for iteration or improvement.
 
 ## UA Nondiscrimination and Anti-harassment Policy 
 

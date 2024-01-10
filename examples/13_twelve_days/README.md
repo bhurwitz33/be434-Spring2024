@@ -69,6 +69,14 @@ optional arguments:
                         mode='w' encoding='utf-8'>)
 ```
 
+Activate the testing environment
+
+```
+conda activate /groups/bhurwitz/bh_class/be434/be434-conda
+```
+
+Run the test suite
+
 ```
 $ make test
 pytest -xv test.py

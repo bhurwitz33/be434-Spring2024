@@ -102,6 +102,12 @@ optional arguments:
   -e, --easy          Halve the reps (default: False)
 ```
 
+Activate the testing environment
+
+```
+conda activate /groups/bhurwitz/bh_class/be434/be434-conda
+```
+
 Run the test suite to ensure your program is working correctly:
 
 ```
