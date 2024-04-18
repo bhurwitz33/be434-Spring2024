@@ -155,7 +155,6 @@ There are clearly more words that should be found, but spelling variations preve
 A passing test suite looks like the following:
 
 ```
-$ conda activate /groups/bhurwitz/bh_class/be434/be434-conda
 $ make test
 pytest -xv --pylint --disable-warnings test.py common.py
 ============================= test session starts ==============================

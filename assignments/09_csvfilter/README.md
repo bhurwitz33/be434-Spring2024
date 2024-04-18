@@ -6,7 +6,7 @@ The program should take the following parameters:
 
 * `-f`|`--file`: A *required* argument that is a readable file
 * `-v`|`--val`: A *required* "value" to match against each record
-* `-c`|`--col`: An optional "column" to search for the given value
+* `-c`|`--col`: An optional "column name" to search for the given value
 * `-o`|`--outfile`: An optional output file name (default `'out.csv'`)
 * `-d`|`--delimiter`: An optional delimiter to use to parse the file (default `','`)
 
@@ -22,7 +22,7 @@ optional arguments:
   -h, --help            show this help message and exit
   -f FILE, --file FILE  Input file (default: None)
   -v val, --val val     Value for filter (default: None)
-  -c col, --col col     Column for filter (default: )
+  -c col, --col col     Column name for filter (default: )
   -o OUTFILE, --outfile OUTFILE
                         Output filename (default: out.csv)
   -d delim, --delimiter delim
@@ -35,17 +35,12 @@ The input files are delimited by commas and tabs, so you will need to use the `-
 
 ## Titanic
 
-For the following, I will use the `csvchk` program to inspect the first record of the input files.
-You can install this like so:
-
-----
-$ python3 -m pip install csvchk
-----
-
+For the following, I will use the `csvchk.py` program to inspect the first record of the input files.
+You can run it like so:
 Let's take a look at the `titanic.csv` file:
 
 ----
-$ csvchk inputs/titanic.csv
+$ ./csvchk.py inputs/titanic.csv
 // ****** Record 1 ****** //
 id          : 0
 survived    : 0
@@ -95,10 +90,10 @@ Done, wrote 537 to "out.csv".
 ----
 
 Let's verify that.
-The `csvchk` has an option `-n` to _number_ the columns:
+The `csvchk.py` has an option `-n` to _number_ the columns:
 
 ----
-$ csvchk -n inputs/titanic.csv
+$ ./csvchk.py -n inputs/titanic.csv
 // ****** Record 1 ****** //
   1 id          : 0
   2 survived    : 0
@@ -130,7 +125,7 @@ OK, that looks legit.
 Note that the output file has all the input columns and is in CSV format:
 
 ----
-$ csvchk out.csv
+$ ./csvchk.py out.csv
 // ****** Record 1 ****** //
 id          : 0
 survived    : 0
@@ -155,7 +150,7 @@ alone       : False
 Let's now check out the `centroids.txt` file:
 
 ----
-$ csvchk inputs/centroids.tab
+$ ./csvchk.py inputs/centroids.tab
 // ****** Record 1 ****** //
 centroid : e5d49c0803f04032b482a1ee836e18ab
 domain   : Bacteria
@@ -255,7 +250,6 @@ When you are done, be sure to let the user know how many records were written to
 A passing test suite:
 
 ----
-$ conda activate /groups/bhurwitz/bh_class/be434/be434-conda
 $ make test
 pytest -xv --disable-pytest-warnings test.py
 =========================== test session starts ============================
